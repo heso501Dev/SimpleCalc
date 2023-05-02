@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+  background-color: rgb(222, 222, 222);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  font-size: 18px;
+  color: rgb(169, 169, 169);
+  margin-bottom: 20px;
+}
+label, input{
+  margin-bottom: 8px;
+  display: block;
+}
+label{
+  font-size: 14px;
+}
+input{
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+input:focus{
+  outline-color: rgba(60, 60, 255, 0.457);
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+button {
+  width: fit-content;
+  padding: 4px 8px;
+  margin: 12px 0px;
+  border-radius: 4px;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 10px;
+}
+button#add{
+  background-color: rgb(42, 42, 218);
+}
+button#sub{
+  background-color: rgb(219, 219, 1);
+}
+button#c{
+  background-color: rgb(222, 45, 45);
+}
+div .output{
+  width: 100%;
+}
+div p#output{
+  background-color: white;
+  width: 80%;
+  padding: 8px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 8px;
+  display: none;
+}
